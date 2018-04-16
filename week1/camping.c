@@ -9,13 +9,13 @@
 #include <stdlib.h>
 #include <math.h>
 
-int	main(int argc, char *argv[])
-{
-	int input = 0;
-	scanf("%d", &input);		//reading the input
-	int output = input / 24;	//calculating the amount of walks
-	if ((input % 24) != 0)		//if the amount is not divisible by 24, add 1
-		output++;
-	printf("%d\n", output);		//printing the output
-	return (0);
+int main(int argc, char *argv[]) {
+    int input = 0;
+    scanf("%d", &input);        //reading the input
+    int output = input / 24;    //calculating the amount of walks
+    if ((input % 24) != 0) {        //if the amount is not divisible by 24, add 1
+        output++;
+    }
+    printf("%d\n", output);        //printing the output
+    return (0);
 }
